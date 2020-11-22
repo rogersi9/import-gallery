@@ -34,7 +34,7 @@ export class HomePage {
   
     console.log("Image URL is"+this.sourceImage);
     this.convertedImage= "data:image/jpg;base64,"+this.sourceImage;
-    this.imgUrl=image.webPath;
+    //this.imgUrl=image.webPath;
     
   }
   
